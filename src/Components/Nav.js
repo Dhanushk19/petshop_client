@@ -41,7 +41,7 @@ function Nav()
                  <Link to='/sell' className="nav-link active"><h2>Sell</h2></Link>
                 </li>
                 
-                <li className="navbar" style={{marginLeft:"600px"}}>
+                <li className="navbar" style={{marginLeft:"400px"}}>
                  <Link to='/login' className="nav-link active"><button type="button" className="btn btn-success" style={{fontFamily: 'Gemunu Libre',fontSize:"30px",paddingLeft:"20px",paddingRight:"20px"}}>Login</button></Link>
                 </li>
                 
