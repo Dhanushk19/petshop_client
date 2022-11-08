@@ -59,14 +59,14 @@ function Nav()
                <li className="navbar" style={{marginLeft:"30px"}}>
                 <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
                </li>
-                <li className="navbar" style={{marginLeft:"70px"}} >
+                <li className="navbar" style={{marginLeft:"50px"}} >
                 <Link to='/' className="nav-link active"><h2>Home</h2></Link>
                  
                 </li>
-                <li className="navbar" style={{marginLeft:"70px"}} >
+                <li className="navbar" style={{marginLeft:"50px"}} >
                  <Link to='/buy' className="nav-link active"><h2>Buy</h2></Link>
                 </li>
-                <li className="navbar" style={{marginLeft:"70px"}} >
+                <li className="navbar" style={{marginLeft:"50px"}} >
                  <Link to='/sell' className="nav-link active"><h2>Sell</h2></Link>
                 </li>
                 <li className="navbar" style={{marginLeft:"220px"}} >
