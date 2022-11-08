@@ -2,7 +2,6 @@ import React from "react";
 import {Outlet,Link} from 'react-router-dom';
 import { useNavigate } from "react-router";
 import { useUserAuth } from "../Context/UserAuthContext";
-import "./Nav.css";
 function Nav()
 {
  
@@ -28,22 +27,22 @@ function Nav()
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-0">
   
             <ul className="navbar-nav">
-               <li className="navbar" >
+               <li className="navbar" style={{marginLeft:"30px"}}>
                 <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
                </li>
-                <li className="navbar"  >
-                <Link to='/' className="nav-link active" style={{marginLeft:"200px"}}><h2>Home</h2></Link>
+                <li className="navbar" style={{marginLeft:"100px"}} >
+                <Link to='/' className="nav-link active"><h2>Home</h2></Link>
                  
                 </li>
-                <li className="navbar"  >
-                 <Link to='/buy' className="nav-link active" style={{marginLeft:"20px"}}><h2>Buy</h2></Link>
+                <li className="navbar" style={{marginLeft:"100px"}} >
+                 <Link to='/buy' className="nav-link active"><h2>Buy</h2></Link>
                 </li>
-                <li className="navbar " >
-                 <Link to='/sell' className="nav-link active" style={{marginLeft:"20px"}}><h2>Sell</h2></Link>
+                <li className="navbar" style={{marginLeft:"100px"}} >
+                 <Link to='/sell' className="nav-link active"><h2>Sell</h2></Link>
                 </li>
                 
-                <li className="navbar" >
-                 <Link to='/login' className="nav-link active" style={{marginLeft:"20px"}}><button type="button" className="btn btn-success" style={{fontFamily: 'Gemunu Libre',fontSize:"30px",paddingLeft:"20px",paddingRight:"20px"}}>Login</button></Link>
+                <li className="navbar" style={{marginLeft:"600px"}}>
+                 <Link to='/login' className="nav-link active"><button type="button" className="btn btn-success" style={{fontFamily: 'Gemunu Libre',fontSize:"30px",paddingLeft:"20px",paddingRight:"20px"}}>Login</button></Link>
                 </li>
                 
                 
