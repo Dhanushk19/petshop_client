@@ -24,7 +24,7 @@ function Nav()
             user == null ?
             (
           
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-0">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   
             <ul className="navbar-nav">
                <li className="navbar" style={{marginLeft:"50px"}}>
