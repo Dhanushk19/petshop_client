@@ -89,7 +89,10 @@ function Log() {
                 {
                     user.email === sell.emailid ?
                         (
+                            <>
                             <Link to="/buy"><button onClick={handle} className="btn btn-danger btn-lg">Delete</button></Link>
+                            <br></br>
+                            </>
                         ) :
                         (
                             <></>
