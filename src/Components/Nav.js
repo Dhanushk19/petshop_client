@@ -69,7 +69,7 @@ function Nav()
                 <li className="navbar" style={{marginLeft:"100px"}} >
                  <Link to='/sell' className="nav-link active"><h2>Sell</h2></Link>
                 </li>
-                <li className="navbar" style={{marginLeft:"250px"}} >
+                <li className="navbar" style={{marginLeft:"220px"}} >
                     <h3 style={{fontFamily: 'Gemunu Libre',color:'white'}}>Hello {user && user.email} !</h3>
                 </li>
                 <li className="navbar" style={{marginLeft:"50px"}}>
