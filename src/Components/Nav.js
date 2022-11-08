@@ -30,7 +30,7 @@ function Nav()
                <li className="navbar" style={{marginLeft:"50px"}}>
                 <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
                </li>
-                <li className="navbar" style={{marginLeft:"100px"}} >
+                <li className="navbar" style={{marginLeft:"300px"}} >
                 <Link to='/' className="nav-link active"><h2>Home</h2></Link>
                  
                 </li>
