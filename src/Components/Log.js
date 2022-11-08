@@ -98,6 +98,7 @@ function Log() {
                             <></>
                         )
                 }
+                <h3>Contact the Owner using the above Email id</h3>
             </center>
 
         </div>
