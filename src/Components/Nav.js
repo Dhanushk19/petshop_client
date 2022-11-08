@@ -29,7 +29,7 @@ function Nav()
   
             <ul className="navbar-nav">
                <li className="navbar" >
-                <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
+                <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px",marginLeft:"20px"}}>Pet Paradise</h1></Link>
                </li>
                 <li className="navbar"  >
                 <Link to='/' className="nav-link active"><h2>Home</h2></Link>
