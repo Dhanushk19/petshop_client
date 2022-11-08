@@ -2,6 +2,7 @@ import React from "react";
 import {Outlet,Link} from 'react-router-dom';
 import { useNavigate } from "react-router";
 import { useUserAuth } from "../Context/UserAuthContext";
+import "./Nav.css";
 function Nav()
 {
  
