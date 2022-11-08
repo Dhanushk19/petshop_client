@@ -31,18 +31,18 @@ function Nav()
                <li className="navbar" >
                 <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
                </li>
-                <li className="navbar aliri"  >
-                <Link to='/' className="nav-link active"><h2>Home</h2></Link>
+                <li className="navbar"  >
+                <Link to='/' className="nav-link active"><h3>Home</h3></Link>
                  
                 </li>
-                <li className="navbar aliri"  >
-                 <Link to='/buy' className="nav-link active"><h2>Buy</h2></Link>
+                <li className="navbar"  >
+                 <Link to='/buy' className="nav-link active"><h3>Buy</h3></Link>
                 </li>
-                <li className="navbar aliri" >
-                 <Link to='/sell' className="nav-link active"><h2>Sell</h2></Link>
+                <li className="navbar " >
+                 <Link to='/sell' className="nav-link active"><h3>Sell</h3></Link>
                 </li>
                 
-                <li className="navbar aliri" >
+                <li className="navbar" >
                  <Link to='/login' className="nav-link active"><button type="button" className="btn btn-success" style={{fontFamily: 'Gemunu Libre',fontSize:"30px",paddingLeft:"20px",paddingRight:"20px"}}>Login</button></Link>
                 </li>
                 
@@ -61,14 +61,14 @@ function Nav()
                 <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
                </li>
                 <li className="navbar" style={{marginLeft:"100px"}} >
-                <Link to='/' className="nav-link active"><h2>Home</h2></Link>
+                <Link to='/' className="nav-link active"><h3>Home</h3></Link>
                  
                 </li>
                 <li className="navbar" style={{marginLeft:"100px"}} >
-                 <Link to='/buy' className="nav-link active"><h2>Buy</h2></Link>
+                 <Link to='/buy' className="nav-link active"><h3>Buy</h3></Link>
                 </li>
                 <li className="navbar" style={{marginLeft:"100px"}} >
-                 <Link to='/sell' className="nav-link active"><h2>Sell</h2></Link>
+                 <Link to='/sell' className="nav-link active"><h3>Sell</h3></Link>
                 </li>
                 <li className="navbar" style={{marginLeft:"250px"}} >
                     <h3 style={{fontFamily: 'Gemunu Libre',color:'white'}}>Hello {user && user.email} !</h3>
