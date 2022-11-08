@@ -30,18 +30,18 @@ function Nav()
                <li className="navbar" >
                 <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
                </li>
-                <li className="navbar"  >
+                <li className="navbar aliri"  >
                 <Link to='/' className="nav-link active"><h2>Home</h2></Link>
                  
                 </li>
-                <li className="navbar"  >
+                <li className="navbar aliri"  >
                  <Link to='/buy' className="nav-link active"><h2>Buy</h2></Link>
                 </li>
-                <li className="navbar" >
+                <li className="navbar aliri" >
                  <Link to='/sell' className="nav-link active"><h2>Sell</h2></Link>
                 </li>
                 
-                <li className="navbar" >
+                <li className="navbar aliri" >
                  <Link to='/login' className="nav-link active"><button type="button" className="btn btn-success" style={{fontFamily: 'Gemunu Libre',fontSize:"30px",paddingLeft:"20px",paddingRight:"20px"}}>Login</button></Link>
                 </li>
                 
