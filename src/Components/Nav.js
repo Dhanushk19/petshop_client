@@ -42,7 +42,7 @@ function Nav()
                 </li>
                 
                 <li className="navbar" >
-                 <Link to='/login' className="nav-link active"><button type="button" className="btn btn-success" style={{fontFamily: 'Gemunu Libre',fontSize:"30px",paddingLeft:"20px",paddingRight:"20px"}}>Login</button></Link>
+                 <Link to='/login' className="nav-link active"><button type="button" className="btn btn-success" style={{fontFamily: 'Gemunu Libre',fontSize:"30px",paddingRight:"20px"}}>Login</button></Link>
                 </li>
                 
                 
