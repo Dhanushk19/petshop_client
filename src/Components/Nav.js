@@ -27,7 +27,7 @@ function Nav()
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-0">
   
             <ul className="navbar-nav">
-               <li className="navbar" style={{marginLeft:"30px"}}>
+               <li className="navbar" style={{marginLeft:"50px"}}>
                 <Link className="navbar-brand" href="#"><h1 style={{fontSize:"50px"}}>Pet Paradise</h1></Link>
                </li>
                 <li className="navbar" style={{marginLeft:"100px"}} >
