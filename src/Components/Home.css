@@ -1,0 +1,65 @@
+.car
+{
+    margin-top: 3%;
+    width:55%;
+    height: 800px;
+    margin-left: 21%;
+}
+
+
+.dhan ::-webkit-scrollbar
+{
+    overflow: hidden;
+
+}
+
+.dhan{
+    width: 300px;
+  padding: 20px 10px;
+  color: #7a7a7a;
+  cursor: pointer;
+}
+
+.dhan h6{
+    font-family: 'Gemunu Libre';
+    letter-spacing: 1px;
+    
+}
+
+.flexing
+{
+    margin-left: 1%;
+    display: flex;
+    
+}
+
+.all
+{
+    font-family: "gemunu Libre";
+}
+
+.centered {
+    position: absolute;
+    top: 200px;
+  right: 80px;
+  }
+
+  .fform
+  {
+    font-family: "gemunu libre";
+    font-size: larger;
+    font-weight: 400;
+  }
+
+
+.table
+{
+    margin-top: 2%;
+    border:1px solid black;
+    text-align: center;
+    
+}
+
+th,td{
+    border: 1px solid black;
+}

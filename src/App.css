@@ -1,0 +1,36 @@
+.App
+{
+  text-align: center;
+}
+
+
+*
+{
+  overflow-x: hidden;
+}
+
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  }
+h2
+{
+  color:white;
+  font-family: 'Gemunu Libre';
+  font-weight:900;
+}
+
+h1{
+   color:White;
+   font-family: 'Passions Conflict';
+}
+

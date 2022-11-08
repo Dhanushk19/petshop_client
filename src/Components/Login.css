@@ -1,0 +1,167 @@
+.LoginPage
+{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width:360px;
+    height:400px;
+    margin-left:580px;
+    margin-top:115px;
+    background-color: white;
+    font-size:small;
+    font-family:'germunu Libre' ;
+    
+}
+.buttonlogin:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    }
+
+    .signButton:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        background-color: black;
+        color: white;
+        font-weight: 300;
+        }
+
+        .buttonlogin_s:hover{
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            background-color: black;
+            color: white;
+            font-weight: 300;
+            }
+    
+.PageStart
+{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width:380px;
+    height:780px;
+    margin:auto;
+    background-color: white;
+    font-size: larger;
+    font-family: 'Gemunu Libre';
+    margin-top: 4%;
+}
+.head
+{
+    color: black;
+    padding-top: 10px;
+    padding-left: 45%;   
+    font-family: 'Gemunu Libre';
+    font-weight: 700;
+}
+.head_s{
+    color:black;
+    padding-top: 10px;
+    padding-left: 37%; 
+    font-weight: 700;
+    font-family: 'Gemunu Libre';
+
+}
+.buttonlogin
+{
+    background-color:white;
+    color:black;
+    font-size:medium;
+    margin-left: 30%;
+    padding: 10px 50px 10px 50px;
+    font-size: large;
+    border:1px solid black;
+    font-weight: 700;
+    font-family: 'Gemunu Libre';
+}
+.buttonlogin_s
+{
+    background-color:white;
+    color: black;
+    font-size:medium;
+    margin-left: 28%;
+    padding: 10px 50px 10px 50px;
+    font-size: large;
+    border: 1px solid black;
+    font-family: 'Gemunu Libre';
+
+}
+
+*:focus {
+    outline: none;
+}
+
+.signButton
+{
+    background-color:white;
+    color:black;
+    font-size:medium;
+    padding: 10px 45px 10px 45px;
+    margin-left: 17%;
+    font-size: large;
+    border: 1px solid black;
+    font-weight: 700;
+    font-family: 'Gemunu Libre';
+
+}
+
+.txt-field
+{
+    margin-left: 15%;
+}
+
+.txt-field_s
+{
+    margin-left: 25%;
+}
+
+.SignUp_link
+{
+    margin-left: 15%;
+}
+
+.inp
+{
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    font-size: medium;
+    padding-top: 10px;
+    
+}
+
+input::placeholder {
+    font: 20px/5 Gemunu Libre;
+    
+}
+
+
+
+.Fullpage
+{
+    overflow:hidden;
+    
+}
+
+.footer
+{
+    padding-top:130px;
+    color: white;
+    
+}
+
+.box {
+    width:35%;
+    margin-top:100px;
+    margin-left:500px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+  }
+  
+  .ff
+  {
+    font-family: "Gemunu Libre";
+    font-size: large;
+  }

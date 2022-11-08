@@ -1,0 +1,36 @@
+
+
+.Sub
+{
+    background-color: white;
+    color: black;
+    font-size:medium;
+    padding: 10px 80px 10px 80px;
+    font-size: large;
+    border: 1px solid black;
+
+}
+
+.Sub:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    }
+
+.SellPage
+{
+    font-size: x-large;
+    font-family: 'gemunu Libre';
+    
+}
+
+
+.cardc
+{
+    margin-left:400px;
+    margin-right:400px;
+    margin-bottom:50px;
+}
