@@ -173,9 +173,9 @@ const uploadImage1 = async e => {
             <br></br>
             </>
           ):
-          (<>
-            console.log(image),
-            <br></br>
+          (
+          <>
+              <br></br>
               <img alt="." src={image1} style={{width:'300px',height:'150px',marginLeft:"210px"}}/>
               </>
            
